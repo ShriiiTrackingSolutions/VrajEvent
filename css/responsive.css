@@ -36,6 +36,20 @@
     url("../image/BannerMOB1.webp") center/cover no-repeat;
 }
 
+.slider1{
+  background: linear-gradient(to right, #0000009c 40%, #0000009c) 0 0 / cover, url('../image/swipperBannerMob1.webp') center / cover no-repeat;
+}
+.slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerMob2.webp') center / cover no-repeat;
+}
+.slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerMob3.webp') center / cover no-repeat;
+}
+.slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerMob4.webp') center / cover no-repeat;
+}
+
+
 }
 
 @media screen and (device-width: 1024px) and (device-height: 600px) and (orientation: landscape) {
@@ -51,6 +65,31 @@
 #ca1.owl-carousel .item3 {
   background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
     url("../image/Banner1.webp") center/cover no-repeat;
+}
+
+.slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/swipperBanner1.webp') center / cover no-repeat;
+}
+.slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBanner2.webp') center / cover no-repeat;
+}
+.slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBanner3.webp') center / cover no-repeat;
+}
+.slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBanner4.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/RudrakshPartyBanner1.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner2.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner3.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner4.webp') center / cover no-repeat;
 }
 
 }
@@ -169,9 +208,9 @@ flex-direction: column-reverse;
     text-align: center;
   }
   .display-2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
-    line-height: 38px;
+    line-height: 34px;
   }
   .secH {
     font-size: 28px;
@@ -267,6 +306,15 @@ margin-right: auto;
 .WhyChoose.EventPage{
 padding-top: 118.25px;
 }
+
+.swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+
+.slide-content .fifthH{
+font-size: 16px;
+}
 }
 
 @media (max-width: 575.98px) {
@@ -314,6 +362,7 @@ max-width: 100%;
     transform: unset;
     width: auto;
   }
+  
 }
 
 @media only screen and (max-height: 539.98px) and (max-width: 1024px) {
@@ -329,6 +378,7 @@ max-width: 100%;
     width: auto;
   }
 
+
 #ca1.owl-carousel .item1 {
   background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
     url("../image/Banner3.webp") center/cover no-repeat;
@@ -340,6 +390,31 @@ max-width: 100%;
 #ca1.owl-carousel .item3 {
   background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
     url("../image/Banner1.webp") center/cover no-repeat;
+}
+
+.slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/swipperBanner1.webp') center / cover no-repeat;
+}
+.slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBanner2.webp') center / cover no-repeat;
+}
+.slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBanner3.webp') center / cover no-repeat;
+}
+.slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBanner4.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/RudrakshPartyBanner1.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner2.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner3.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner4.webp') center / cover no-repeat;
 }
 
 }

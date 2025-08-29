@@ -1246,12 +1246,21 @@ background: -webkit-linear-gradient(to right, hsla(52, 94%, 68%, 1) 0%, hsla(48,
   row-gap: 12px;
   margin-top: 50px;
 }
-.UlStyle li i{
-  margin-right: 6px;
-}
+
 .UlStyle li{
-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-left: 26px;
 }
+.UlStyle li::after{
+  content: "\f1ce";
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 
 /* Categories Section end */
 
@@ -1585,9 +1594,114 @@ max-width: 800px;
     #8b721fc0 75%,
     #a5901caf 100%) center / cover, url("../image/BirthdayEventCallToAction.webp") center / cover no-repeat;
 }
+.callToAction.RiyaRevtiPage0{
+  background: linear-gradient(  135deg,
+    #000000c9 0%,
+    #2b1a12b7 25%,
+    #291c0cb9 50%,
+    #8b721fc0 75%,
+    #a5901caf 100%) center / cover, url("../image/RiyaRevtiCallToAction.webp") center / cover no-repeat;
+}
 .callToAction .Gradientbutton{
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
 }
 /* call To Action section end */
+
+
+
+    .swiper {
+      width: 100%;
+    }
+    .swiper-slide {
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+    .slide-content {
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      right: 0;
+      transform: translateY(-50%);
+      color: #fff;
+    }
+
+
+    /* Swiper pagination & navigation */
+    .swiper-button-prev,
+    .swiper-button-next {
+      color: #fff;
+    }
+    .swiper-pagination-bullet {
+      background: #fff;
+      opacity: 0.7;
+      outline: 1px solid #0000008c;
+    }
+    .swiper-pagination-bullet-active {
+      background: #ffc107;
+    }
+
+    .slider1{
+      background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/swipperBanner1.webp') center / cover no-repeat;
+    }
+    .slider2{
+      background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBanner2.webp') center / cover no-repeat;
+    }
+    .slider3{
+      background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBanner3.webp') center / cover no-repeat;
+    }
+    .slider4{
+      background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBanner4.webp') center / cover no-repeat;
+    }
+    .RudrakshSwiper .slider1{
+      background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/RudrakshPartyBanner1.webp') center / cover no-repeat;
+    }
+    .RudrakshSwiper .slider2{
+      background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner2.webp') center / cover no-repeat;
+    }
+    .RudrakshSwiper .slider3{
+      background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner3.webp') center / cover no-repeat;
+    }
+    .RudrakshSwiper .slider4{
+      background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner4.webp') center / cover no-repeat;
+    }
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-family: "Font Awesome 6 Free";
+    font-size: 30px;
+    font-weight: 900;
+}
+
+ .swiper-button-prev:after {
+   content: "\f104";
+ }
+
+ .swiper-button-next:after{
+  content: "\f105";
+ }
+
+ .EventShowcase{
+  background-color: var(--sectionOverlay);
+ }
+
+ .videoBox{
+  aspect-ratio: 9/16;
+  max-width:100%; 
+  border-radius:15px; 
+  overflow:hidden;
+ }
+
+ .mySwiper2 video,.videoBox video{
+  width:100%; 
+  height:100%; 
+  object-fit:cover;
+ }
+ 
+ div.swiper-pagination2.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
