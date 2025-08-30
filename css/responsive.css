@@ -49,6 +49,19 @@
   background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerMob4.webp') center / cover no-repeat;
 }
 
+ .RudrakshSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #0000009c) 0 0 / cover, url('../image/swipperBannerRudrakshMob1.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerRudrakshMob2.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerRudrakshMob3.webp') center / cover no-repeat;
+}
+.RudrakshSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner4.webp') center / cover no-repeat;
+}
+
 
 }
 

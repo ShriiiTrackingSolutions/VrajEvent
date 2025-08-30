@@ -47,6 +47,9 @@ function loadHeaderFooter(callback) {
                         <a href="RudrakshPartyPlotAndBanquet.html" class="navLink">Rudraksh Party Plot & Banquet</a>
                       </li>
                       <li class="navLi">
+                        <a href="DwarkeshFarmBanquetHallAndPartyPlot.html" class="navLink">Dwarkesh Farm Banquet Hall & Party Plot</a>
+                      </li>
+                      <li class="navLi">
                         <a href="weddingAndReception.html" class="navLink">Wedding & Reception</a>
                       </li>
                       <li class="navLi">
