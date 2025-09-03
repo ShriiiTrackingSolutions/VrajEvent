@@ -50,16 +50,13 @@ function loadHeaderFooter(callback) {
                         <a href="DwarkeshFarmBanquetHallAndPartyPlot.html" class="navLink">Dwarkesh Farm Banquet Hall & Party Plot</a>
                       </li>
                       <li class="navLi">
-                        <a href="weddingAndReception.html" class="navLink">Wedding & Reception</a>
+                        <a href="GangotriPartyPlotAndMarriageHall.html" class="navLink">Gangotri Party Plot & Marriage Hall</a>
                       </li>
                       <li class="navLi">
-                        <a href="babyShower.html" class="navLink">Baby Shower</a>
+                        <a href="JamnotriPartyPlot.html" class="navLink">Jamnotri Party Plot</a>
                       </li>
                       <li class="navLi">
-                        <a href="DJ_AndDance.html" class="navLink">DJ & Dance (Theme Party)</a>
-                      </li>
-                      <li class="navLi">
-                        <a href="birthdayParties.html" class="navLink">Birthday Parties</a>
+                        <a href="SaraswatiFarm.html" class="navLink">Saraswati Farm</a>
                       </li>
                     </ul>
                   </li>

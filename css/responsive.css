@@ -62,6 +62,55 @@
   background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner4.webp') center / cover no-repeat;
 }
 
+.DwarkeshFramBanquetSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #0000009c) 0 0 / cover, url('../image/swipperBannerDwarkeshFramBanquetMob1.webp') center / cover no-repeat;
+}
+.DwarkeshFramBanquetSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerDwarkeshFramBanquetMob2.webp') center / cover no-repeat;
+}
+.DwarkeshFramBanquetSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerDwarkeshFramBanquetMob3.webp') center / cover no-repeat;
+}
+.DwarkeshFramBanquetSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerDwarkeshFramBanquetMob4.webp') center / cover no-repeat;
+}
+
+.GangotriPartyPlotSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #0000009c) 0 0 / cover, url('../image/swipperBannerGangotriPartyPlotMob1.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerGangotriPartyPlotMob2.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerGangotriPartyPlotMob3.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerGangotriPartyPlotMob4.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #0000009c) 0 0 / cover, url('../image/swipperBannerJamnotriPartyPlotMob1.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerJamnotriPartyPlotMob2.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerJamnotriPartyPlotMob3.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerJamnotriPartyPlotMob4.webp') center / cover no-repeat;
+}
+
+.SaraswatiFarmSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/swipperBannerSaraswatiFarmMob1.webp') center / cover no-repeat;
+}
+.SaraswatiFarmSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerRudrakshMob2.webp') center / cover no-repeat;
+}
+.SaraswatiFarmSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerSaraswatiFarmMob3.webp') center / cover no-repeat;
+}
+
+
 
 }
 
@@ -104,6 +153,52 @@
 .RudrakshSwiper .slider4{
   background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner4.webp') center / cover no-repeat;
 }
+.DwarkeshFramBanquetSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/DwarkeshFarmBanquetBanner1.webp') center / cover no-repeat;
+}
+.DwarkeshFramBanquetSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/DwarkeshFarmBanquetBanner2.webp') center / cover no-repeat;
+}
+.DwarkeshFramBanquetSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/DwarkeshFarmBanquetBanner3.webp') center / cover no-repeat;
+}
+.DwarkeshFramBanquetSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/DwarkeshFarmBanquetBanner4.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/GangotriPartyPlotBanner1.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/GangotriPartyPlotBanner2.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/GangotriPartyPlotBanner3.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/GangotriPartyPlotBanner4.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/JamnotriPartyPlotBanner1.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/JamnotriPartyPlotBanner2.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/JamnotriPartyPlotBanner3.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/JamnotriPartyPlotBanner4.webp') center / cover no-repeat;
+}
+.SaraswatiFarmSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/SaraswatiFarmBanner1.webp') center / cover no-repeat;
+}
+.SaraswatiFarmSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/SaraswatiFarmBanner2.webp') center / cover no-repeat;
+}
+.SaraswatiFarmSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/SaraswatiFarmBanner3.webp') center / cover no-repeat;
+}
+
 
 }
 
@@ -361,6 +456,11 @@ max-width: 100%;
     width: 0;
   }
 
+.categoriesSection .nav-link.Gradientbutton {
+  font-size: 11px;
+  padding: 8px 10px;  
+}
+
 }
 
 @media only screen and (max-height: 539.98px) {
@@ -429,6 +529,50 @@ max-width: 100%;
 .RudrakshSwiper .slider4{
   background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner4.webp') center / cover no-repeat;
 }
-
+.DwarkeshFramBanquetSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/DwarkeshFarmBanquetBanner1.webp') center / cover no-repeat;
+}
+.DwarkeshFramBanquetSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/DwarkeshFarmBanquetBanner2.webp') center / cover no-repeat;
+}
+.DwarkeshFramBanquetSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/DwarkeshFarmBanquetBanner3.webp') center / cover no-repeat;
+}
+.DwarkeshFramBanquetSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/DwarkeshFarmBanquetBanner4.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/GangotriPartyPlotBanner1.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/GangotriPartyPlotBanner2.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/GangotriPartyPlotBanner3.webp') center / cover no-repeat;
+}
+.GangotriPartyPlotSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/GangotriPartyPlotBanner4.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/JamnotriPartyPlotBanner1.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/JamnotriPartyPlotBanner2.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/JamnotriPartyPlotBanner3.webp') center / cover no-repeat;
+}
+.JamnotriPartyPlotSwiper .slider4{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/JamnotriPartyPlotBanner4.webp') center / cover no-repeat;
+}
+.SaraswatiFarmSwiper .slider1{
+  background: linear-gradient(to right, #0000009c 40%, #00000028) 0 0 / cover, url('../image/SaraswatiFarmBanner1.webp') center / cover no-repeat;
+}
+.SaraswatiFarmSwiper .slider2{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/SaraswatiFarmBanner2.webp') center / cover no-repeat;
+}
+.SaraswatiFarmSwiper .slider3{
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/SaraswatiFarmBanner3.webp') center / cover no-repeat;
+}
 }
 
