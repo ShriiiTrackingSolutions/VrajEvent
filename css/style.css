@@ -1749,4 +1749,5 @@ max-width: 800px;
     position: absolute;
     text-align: center;
     z-index: 1;
+    bottom: 54px;
 }
