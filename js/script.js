@@ -35,7 +35,7 @@ function loadHeaderFooter(callback) {
                     <a class="navLink" href="aboutUs.html">About</a>
                   </li>
                   <li class="navLi">
-                    <a href="#" class="navLink">Services <span class="toggleSub">
+                    <a href="#" class="navLink">Our Locations <span class="toggleSub">
                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="m8 10.207l3.854-3.853l-.707-.708L8 8.793L4.854 5.646l-.708.708z" clip-rule="evenodd" stroke-width="0.5" stroke="currentColor"/></svg>
                       </span>
                     </a>
