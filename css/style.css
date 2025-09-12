@@ -1188,8 +1188,18 @@ background: -webkit-linear-gradient(to right, hsla(52, 94%, 68%, 1) 0%, hsla(48,
 }
 .categoriesSection .nav-pills {
   gap: 16px;
-  justify-content: center;
-  margin-top: 40px;
+  margin-bottom: 0 !important;
+}
+.tabBoxOverflow{
+  overflow-x: auto;
+  padding: 30px 30px;
+  background-color: var(--darkBg);
+  isolation: isolate;
+}
+.tabWraper{
+  position: sticky;
+  top: 78px;
+  z-index: 2;
 }
 
 .nav-pills .nav-link {

@@ -59,7 +59,7 @@
   background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerRudrakshMob3.webp') center / cover no-repeat;
 }
 .RudrakshSwiper .slider4{
-  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/RudrakshPartyBanner4.webp') center / cover no-repeat;
+  background: linear-gradient(to bottom, #00000091 0%, #0000005d 12%, #00000000 24%, #00000018 80%, #0000002d 84%, #000000b6 100%) 0 0 / cover, url('../image/swipperBannerRudrakshMob4.webp') center / cover no-repeat;
 }
 
 .DwarkeshFramBanquetSwiper .slider1{
@@ -390,10 +390,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.categoriesSection .nav-pills {
-    justify-content: start;
-    margin-top: 40px;
-}
     .tabPanWrapper {
         padding: 16px;
     }
@@ -423,6 +419,26 @@ padding-top: 118.25px;
 .slide-content .fifthH{
 font-size: 16px;
 }
+
+.categoriesSection .nav-pills {
+  min-width: 690px;
+}
+
+.tabWraper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #ffffff00 84%, #0e0e0e);
+    pointer-events: none;
+    z-index: 3;
+}
+
 }
 
 @media (max-width: 575.98px) {
@@ -436,13 +452,8 @@ font-size: 16px;
     width: 100%;
 }
 
-.nav-pills .nav-item{
-width: calc(50% - 12px);
-}
 .categoriesSection .nav-pills {
-    gap: 20px 24px;
-    justify-content: center;
-    margin-top: 40px;
+    gap: 16px 16px;
 }
 .nav-pills .nav-link.Gradientbutton{
 width: 100%;
