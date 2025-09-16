@@ -78,13 +78,16 @@
             <div class="invalid-feedback"> Please enter your event address.</div>
           </div>
           <div class="col-md-6">
-            <label for="validateEventType" class="form-label">Event Type</label>
+            <label for="validateEventType" class="form-label">Party Plot Location</label>
             <select class="form-select" id="validateEventType" required="">
-              <option selected="" disabled="" value="">Choose Your Event...</option>
-              <option value="Corporate" data-calc-value="Corporate"> Corporate </option>
-              <option value="Entertainment" data-calc-value="Entertainment"> Entertainment </option>
-              <option value="Non-Profit" data-calc-value="Non-Profit"> Non-Profit </option>
-              <option value="Social" data-calc-value="Social"> Social </option>
+              <option selected="" disabled="" value="">Choose Your Plot...</option>
+              
+              <option value="Riya Revti Party Plot" data-calc-value="Riya Revti Party Plot"> Riya Revti Party Plot </option>
+              <option value="Rudraksh Party Plot Banquet" data-calc-value="Rudraksh Party Plot Banquet"> Rudraksh Party Plot Banquet </option>
+              <option value="Dwarkesh Farm Banquet Hall Party Plot" data-calc-value="Dwarkesh Farm Banquet Hall Party Plot"> Dwarkesh Farm Banquet Hall Party Plot </option>
+              <option value="Gangotri Party Plot Marriage Hall" data-calc-value="Gangotri Party Plot Marriage Hall"> Gangotri Party Plot Marriage Hall </option>
+              <option value="Jamnotri Party Plot" data-calc-value="Jamnotri Party Plot"> Jamnotri Party Plot </option>
+              <option value="Saraswati Farm" data-calc-value="Saraswati Farm"> Saraswati Farm </option>
             </select>
             <div class="invalid-feedback"> Please select a treatment. </div>
           </div>
@@ -151,9 +154,9 @@
               </div>
               <div class="WhyChooseCardInfo">
                 <h3 class="fifthH">Hotline Number</h3>
-                <p>+91 82004 82291</p>
+                <p>+91 80000 88141</p>
               </div>
-              <a class="absAchor" href="tel:+918200482291"></a>
+              <a class="absAchor" href="tel:+918000088141"></a>
             </div>
           </div>
           <div class="col-12">
@@ -164,12 +167,12 @@
               <div class="WhyChooseCardInfo">
                 <h3 class="fifthH">Office Address</h3>
                 <address>
-Saurabh Park, Laxmipura,
-Subhanpura, Vadodara, 
-Gujarat 390021
+Sama-Savli Rd, near
+by power grid, Vemali,
+Vadodara, Gujarat 390002
                 </address>
               </div>
-              <a target="_blank" class="absAchor" href="https://maps.app.goo.gl/KCjhggPh8MBU2fQXA"></a>
+              <a target="_blank" class="absAchor" href="https://maps.app.goo.gl/a8XjDkQwKo9u2sq48"></a>
             </div>
           </div>
           <div class="col-12">
@@ -191,7 +194,7 @@ Gujarat 390021
 </section>
 
 <section class="mapSection">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1845.3938947226013!2d73.1417166387653!3d22.323864076100936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc994e8d65d27%3A0x3d60e9c6c82737f!2sShriii%20events!5e0!3m2!1sen!2sin!4v1756183443530!5m2!1sen!2sin" width="100%" height="Auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.013852917961!2d73.19730217637229!3d22.353105779648665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcedbff21cbcd%3A0x4c4e13c4d35a6c9d!2z8J2XpfCdl7bwnZiG8J2XriDwnZel8J2XsvCdmIPwnZeu8J2YgfCdl7Yg8J2XpfCdl7LwnZiA8J2XvPCdl7_wnZiBIC0gQmVzdCBQYXJ0eSBQbG90IHwgQmFucXVldCBIYWxsIHwgRGVzdGluYXRpb24gV2VkZGluZyBSZXNvcnRzIGluIFZlbWFsaSBWYWRvZGFyYQ!5e0!3m2!1sen!2sin!4v1758015985536!5m2!1sen!2sin" width="100%" height="Auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
 
@@ -253,7 +256,7 @@ Gujarat 390021
           const message = $("#MessageBox").val();
 
           // Construct the WhatsApp message
-          return `Hello, I have an enquiry:\n\nName: ${name}\nPhone: ${phone}\nAddress: ${Address || "Not provided"}\nEvent Type: ${EventType || "Not provided"}\nMessage: ${message || "Not provided"}`;
+          return `Hello, I have an enquiry:\n\nName: ${name}\nPhone: ${phone}\nAddress: ${Address || "Not provided"}\nPlot Location: ${EventType || "Not provided"}\nMessage: ${message || "Not provided"}`;
         }
 
         // Form Validation Function
@@ -276,7 +279,7 @@ Gujarat 390021
         // Initialize logic based on screen size
         function initializeLogic() {
           const isMobile = $(window).width() <= 767.98;
-          const phoneNumber = "918200482291";
+          const phoneNumber = "918000088141";
           const standardWhatsAppUrl = `intent://send?phone=${phoneNumber}&text=`;
           const businessWhatsAppUrl = `intent://send?phone=${phoneNumber}&text=`;
 

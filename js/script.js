@@ -106,29 +106,32 @@ function loadHeaderFooter(callback) {
             <ul>
                 <li>
                   <a class="footerLinks" href="index.html">
-                  <i class="fa-solid fa-circle-chevron-right"></i>Home </a>
+                  Home </a>
                 </li>
                 <li>
                   <a class="footerLinks" href="aboutUs.html">
-                  <i class="fa-solid fa-circle-chevron-right"></i>About Us</a>
+                  About Us</a>
                   </li>
                 <li>
                 <a class="footerLinks" href="gallery.html">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Gallery</a>
+                    Gallery</a>
                 </li>
                 <li>
                 <a class="footerLinks" href="contact.html">
-                    <i class="fa-solid fa-circle-chevron-right"></i>Contact</a>
+                    Contact</a>
                     </li>
               </ul>
               </div>
               <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks1">
-              <h5 class="fourthH ">Explore Link</h5>
+              <h5 class="fourthH ">Our Party Plots</h5>
+
               <ul>   
-              <li><a href="weddingAndReception.html" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> Wedding & Reception</a></li> 
-              <li><a href="babyShower.html" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> Baby Shower</a></li> 
-              <li><a href="DJ_AndDance.html" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> DJ & Dance</a></li> 
-              <li><a href="birthdayParties.html" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> Birthday Party</a></li> 
+              <li><a href="RiyaRevtiPartyPlot.html" class="footerLinks"> Riya Revti Party Plot</a></li> 
+              <li><a href="RudrakshPartyPlotAndBanquet.html" class="footerLinks"> Rudraksh Party Plot & Banquet</a></li> 
+              <li><a href="DwarkeshFarmBanquetHallAndPartyPlot.html" class="footerLinks"> Dwarkesh Farm Banquet Hall & Party Plot</a></li> 
+              <li><a href="GangotriPartyPlotAndMarriageHall.html" class="footerLinks"> Gangotri Party Plot & Marriage Hall</a></li> 
+              <li><a href="JamnotriPartyPlot.html" class="footerLinks"> Jamnotri Party Plot</a></li> 
+              <li><a href="SaraswatiFarm.html" class="footerLinks"> Saraswati Farm</a></li> 
 
                  </ul>
                  </div>
@@ -136,18 +139,18 @@ function loadHeaderFooter(callback) {
                  <h5 class="fourthH ">Contact Us</h5>
                  <ul class="contact-info">
                 <li>
-                <a class="locationLink footerLinks" target="_blank" href="https://maps.app.goo.gl/KCjhggPh8MBU2fQXA">
+                <a class="locationLink footerLinks" target="_blank" href="https://maps.app.goo.gl/a8XjDkQwKo9u2sq48">
                 <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
 <pre class="mb-0">
-Saurabh Park, Laxmipura,
-Subhanpura, Vadodara, 
-Gujarat 390021
+Sama-Savli Rd, near
+by power grid, Vemali,
+Vadodara, Gujarat 390002
 </pre>
                       </a>
                       </li>
                       <li>
-                      <a href="tel:+918200482291" class="footerLinks">
-                      <i class="fa-solid fa-phone"></i>+91 82004 82291</a>
+                      <a href="tel:+918000088141" class="footerLinks">
+                      <i class="fa-solid fa-phone"></i>+91 80000 88141</a>
                       </li>
                 <li>
                 <a class="emailAnchor footerLinks" href="mailto:youremail">
@@ -178,7 +181,7 @@ Gujarat 390021
 
     document.getElementById("fabContainer").innerHTML = ` <!-- whatsapp FAB icon -->
     <div class="fab-container">
-      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=918200482291">
+      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=918000088141">
         <svg xmlns="http://www.w3.org/2000/svg" width="59.54px" height="60px" viewBox="0 0 256 258">
           <defs>
             <linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%">
@@ -198,7 +201,7 @@ Gujarat 390021
     </div>
     <!-- Call FAB icon -->
     <div class="Call-fab-container">
-      <a rel="noopener" target="_blank" href="tel:+918200482291">
+      <a rel="noopener" target="_blank" href="tel:+918000088141">
         <img loading="lazy" style="height: 60px; width: 60px" src="image/phone-call.png" alt="phone icon" />
       </a>
     </div>`// Keep your current Fab HTML here
@@ -268,8 +271,8 @@ function initMobileNavToggle() {
 
 // WhatsApp URL Adjuster (Device-based Detection)
 (function () {
-  const mobileLink = "https://api.whatsapp.com/send?phone=numberHere";
-  const desktopLink = "https://web.whatsapp.com/send?phone=numberHere";
+  const mobileLink = "https://api.whatsapp.com/send?phone=918000088141";
+  const desktopLink = "https://web.whatsapp.com/send?phone=918000088141";
 
   function isMobileDevice() {
     return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
