@@ -169,7 +169,7 @@ Vadodara, Gujarat 390002
       <div class="row ">
       <div class="col-12">
       <div class="inner">
-      <div class="copyright text-center"> <span class="year"></span>  All Rights Reserved by Shriii Events | Developed by <a href="https://shriiitrackingsolution.in/" target="_blank">
+      <div class="copyright text-center"> <span class="year"></span>  All Rights Reserved by Vraj Event | Developed by <a href="https://shriiitrackingsolution.in/" target="_blank">
       <b>Shriii&nbsp;Tracking&nbsp;Solution</b>
                   </a>
                   </div>

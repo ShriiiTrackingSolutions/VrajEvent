@@ -1011,6 +1011,7 @@ transition: color 0.3s ease-in-out;
 }
 .overLayVideo p{
   margin-bottom: 0;
+  min-height: 48px;
 }
 .videoGallery{
   border-top: 25px solid var(--darkBg);
