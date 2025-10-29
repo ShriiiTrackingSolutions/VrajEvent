@@ -773,9 +773,10 @@ transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
-.emailAnchor {
+ /* .contact-info a[href^="tel:"]  */
+.emailAnchor{   
   display: inline-block;
-  min-width: 241px;
+  /* min-width: 241px; */
 }
 
 .footer .contact-info i {
